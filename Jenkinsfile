@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
                     // Descargar el código desde el repositorio
-                    git 'https://github.com/spring-projects/spring-petclinic'
+                    git 'https://github.com/Sebas-gifPaz777/spring-petclinic.git'
                     stash name: 'source-code'
                 }
             }
